@@ -56,6 +56,102 @@
         </li>
       </ul>
     </section>
+    <section class="services">
+      <h2 class="services-title">Популярные услуги</h2>
+      <ul class="services-list">
+        <li class="services-item">
+          <span class="services-name">Стрижка машинкой</span>  
+          <b class="services-price">800 р</b>
+        </li>
+        <li class="services-item">
+          <span class="services-name">Стрижка усов</span>  
+          <b class="services-price">1200 р</b>
+        </li>
+        <li class="services-item">
+          <span class="services-name">Груминг</span>  
+          <b class="services-price">400 р</b>
+        </li>
+        <li class="services-item">
+          <span class="services-name">Комплексная стрижка</span>  
+          <b class="services-price">2300 р</b>
+        </li>
+      </ul>
+      <a class="button button all" href="#">Посмотреть все</a>
+    </section>
+    <section class="gallery">
+      <h2 class="slader-title">Фотогалерея</h2>
+      <img class="slader-image" src="#" alt="Примеры стрижек">
+      <button class="slader-button slader-previous" type="button">
+        <span class="visually-hidden">Предыдущее фото</span>
+      </button>
+      <button class="slader-button slader-next" type="button">
+        <span visually-hidden>Следующее фото</span>
+      </button>
+
+      <ol class="slider-division">
+        <li class="slider-division-list">
+          <button class="slider-division-button slider-division-button-current" type="button">
+            <span class="visually-hidden">1 фото</span>
+          </button>
+        </li>
+        <li class="slider-division-list">
+          <button class="slider-division-button" type="button">
+            <span class="visually-hidden">2 фото</span>
+          </button>
+        </li>
+        <li class="slider-division-list">
+          <button class="slider-division-button" type="button">
+            <span class="visually-hidden">3 фото</span>
+          </button>
+        </li>
+        <li class="slider-division-list">
+          <button class="slider-division-button" type="button">
+            <span class="visually-hidden">4 фото</span>
+          </button>
+        </li>
+      </ol>
+    </section>
+    <section class="contacts">
+      <h2 class="contacts-title">Контакты</h2>
+      <h3 class="contacts-subtitle">Барбершоп "БОРОДИНСКИЙ"</h3>
+      <address class="contacts-address">
+        <p class="contacts-adress-text">Санкт-Петербургб набережная реки Карповки, 5, литера П.</p>
+        <a class="contacts-phone" href="tel:+78005558628">+78005558628</a>
+      </address>
+      <h3 class="contacts-subtitle">Время работы</h3>
+      <ul class="contacts-schedule">
+        <li class="contacts-schedule-item">пн-пт: с 10:00 до 22:00</li>
+        <li class="contacts-schedule-item">сб-вс: с 10:00 до 19:00</li>
+      </ul>
+      <a class="button" href="#">Как проехать</a>
+      <a class="button feedback" href="#">Обратная связь</a>
+    </section>
+    <section class="appointment">
+      <h2 class="appointment-title">Записаться</h2>
+      <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+      <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
+        <p class="appointment-form-date">
+          <label class="form-label" for="appointment-date">ДАТА</label>
+          <input type="text" id="appointment-date" name="appointment-date" placeholder="01.01.2020">
+        </p>
+
+        <p class="appointment-form-time">
+          <label class="form-label" for="appointment-time">Время</label>
+          <input type="text" id="appointment-time" name="appointment-time" placeholder="10:10">
+        </p>
+        
+        <p class="appointment-form-phone">
+          <label class="form-label" for="appointment-phone">ТЕЛЕФОН</label>
+          <input type="text" id="appointment-phone" name="appointment-phone" placeholder="+7 800 000 00 00">
+        </p>
+
+        <p class="appointment-form-name">
+          <label class="form-label" for="appointment-name">ВАШЕ ИМЯ</label>
+          <input type="text" id="appointment-name" name="appointment-name">
+        </p>
+      </form>
+      <button class="button" type="submit">ЗАПИСАТЬСЯ</button>
+    </section>
   </main>    
   </header>  
 </body>
